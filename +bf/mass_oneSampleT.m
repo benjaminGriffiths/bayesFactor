@@ -21,3 +21,4 @@ end
 
 % reshape output
 b = reshape(b,dimensions(2:end));
+b = log(b);
